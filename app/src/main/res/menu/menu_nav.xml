@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group>
+        <item android:title="">
+
+            <menu>
+
+                <item
+                    android:id="@+id/ProfileMenu"
+                    android:title="@string/profile"
+                    android:icon="@drawable/ic_profile"
+                    app:showAsAction="always" />
+
+                <item
+                    android:id="@+id/requestsMenu"
+                    android:title="@string/received_requests"
+                    android:icon="@drawable/ic_receive"
+                    app:showAsAction="always" />
+
+                <item
+                    android:id="@+id/sentMenu"
+                    android:title="@string/sent_requests"
+                    android:icon="@drawable/ic_sent"
+                    app:showAsAction="always" />
+
+            </menu>
+        </item>
+    </group>
+
+    <item
+        android:id="@+id/SignInMenu"
+        android:title="@string/sign_out"
+        android:icon="@drawable/ic_signout1"
+        app:showAsAction="always" />
+
+</menu>

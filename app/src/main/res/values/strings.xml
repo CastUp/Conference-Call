@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Calling Video free</string>
+    <string name="video_meeting">Welcome to \n Video Meeting | Conference App</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="back">Back</string>
+    <string name="welcome">Welcome</string>
+    <string name="u2022_u2022_u2022_u2022_u2022_u2022_u2022_u2022">••••••••</string>
+    <string name="password">Password</string>
+    <string name="you_example_com">you@example.com</string>
+    <string name="email">Email</string>
+    <string name="create">Create</string>
+    <string name="account">Account</string>
+    <string name="first_name">First name</string>
+    <string name="john">john</string>
+    <string name="last_name">Last name</string>
+    <string name="doe">Doe</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="email_address">Email address</string>
+    <string name="find_your_account">Find Your Account</string>
+    <string name="forget_pass">Forget Password</string>
+    <string name="search_friends">Search Friends</string>
+    <string name="your_friend">Search email</string>
+    <string name="Your_friend_name">Your friend\'s name</string>
+    <string name="open">Open</string>
+    <string name="Close">Close</string>
+    <string name="received_requests">Received Requests</string>
+    <string name="sent_requests">Sent Requests</string>
+    <string name="profile">Profile</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="accept">Accept</string>
+    <string name="cancel">Cancel</string>
+</resources>

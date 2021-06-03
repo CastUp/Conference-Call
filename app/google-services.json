@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1008211748467",
+    "firebase_url": "https://conference-call-1b7e6.firebaseio.com",
+    "project_id": "conference-call-1b7e6",
+    "storage_bucket": "conference-call-1b7e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008211748467:android:5e8e406602ca3026952c06",
+        "android_client_info": {
+          "package_name": "com.castup.conferencecall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008211748467-iqajuopbljf58she9guvlnjqg3ddib59.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.castup.conferencecall",
+            "certificate_hash": "f3ab11c7f099656648d904e50e6662d28fa47937"
+          }
+        },
+        {
+          "client_id": "1008211748467-pken53i3k0ue25s9bcf90qranro6j7q1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2KnIUDPOdoYgzz8yv-opszeODAHQ-1-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008211748467-pken53i3k0ue25s9bcf90qranro6j7q1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

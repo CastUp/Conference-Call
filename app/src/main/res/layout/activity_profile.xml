@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fbe9e7"
+    tools:context=".Requests_ProfileNav.Profile">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/ToolbarProfile"
+        android:layout_width="0dp"
+        android:layout_height="?actionBarSize"
+        android:background="#00FF5722"
+        android:elevation="@dimen/_8sdp"
+        app:titleTextColor="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/_20sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ToolbarProfile">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="First name"
+            android:textSize="@dimen/_13ssp"
+            android:textColor="#818080"
+            android:textStyle="bold"
+            android:gravity="start"
+            android:fontFamily="@font/font_regular"
+            android:includeFontPadding="true"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/fristNameProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="@dimen/_13ssp"
+                android:layout_weight="1"
+                android:paddingStart="@dimen/_5sdp"
+                android:fontFamily="@font/font_regular"
+                android:includeFontPadding="false"
+                android:gravity="center|start"
+                android:enabled="false"
+                android:layout_marginEnd="@dimen/_3sdp"
+                android:maxLines="1"
+                android:inputType="text"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/changefristNameProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Update"
+                android:textColor="@color/color_text"
+                android:textSize="@dimen/_12ssp"
+                android:fontFamily="@font/font_regular"
+                android:textStyle="bold"
+                android:includeFontPadding="false"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Last name"
+            android:textSize="@dimen/_13ssp"
+            android:textColor="#818080"
+            android:textStyle="bold"
+            android:gravity="start"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:fontFamily="@font/font_regular"
+            android:includeFontPadding="true"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/LastNameProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="@dimen/_13ssp"
+                android:layout_weight="1"
+                android:paddingStart="@dimen/_5sdp"
+                android:enabled="false"
+                android:fontFamily="@font/font_regular"
+                android:includeFontPadding="false"
+                android:gravity="center|start"
+                android:layout_marginEnd="@dimen/_3sdp"
+                android:maxLines="1"
+                android:inputType="text"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/changeLastNameProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Update"
+                android:textColor="@color/color_text"
+                android:textSize="@dimen/_12ssp"
+                android:fontFamily="@font/font_regular"
+                android:textStyle="bold"
+                android:includeFontPadding="false"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email address"
+            android:textSize="@dimen/_13ssp"
+            android:textColor="#818080"
+            android:textStyle="bold"
+            android:gravity="start"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:fontFamily="@font/font_regular"
+            android:includeFontPadding="true"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/EmailNameProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="@dimen/_13ssp"
+                android:layout_weight="1"
+                android:paddingStart="@dimen/_5sdp"
+                android:enabled="false"
+                android:fontFamily="@font/font_regular"
+                android:includeFontPadding="false"
+                android:gravity="center|start"
+                android:layout_marginEnd="@dimen/_3sdp"
+                android:maxLines="1"
+                android:inputType="textEmailAddress"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/changeEmailNameProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Update"
+                android:textColor="@color/color_text"
+                android:textSize="@dimen/_12ssp"
+                android:fontFamily="@font/font_regular"
+                android:textStyle="bold"
+                android:includeFontPadding="false"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/changePssword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update password"
+            android:textColor="@color/color_text"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:textSize="@dimen/_13ssp"
+            android:fontFamily="@font/font_regular"
+            android:textStyle="bold"
+            android:includeFontPadding="false"/>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

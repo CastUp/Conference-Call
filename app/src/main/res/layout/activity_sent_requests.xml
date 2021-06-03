@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fbe9e7"
+    tools:context=".Requests_ProfileNav.SentRequests">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/ToolbarSearchSent"
+        android:layout_width="0dp"
+        android:layout_height="?actionBarSize"
+        android:background="#00FF5722"
+        android:elevation="@dimen/_8sdp"
+        app:titleTextColor="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/SearchFindSent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/background_search"
+        android:elevation="@dimen/_4sdp"
+        android:gravity="start|center_vertical"
+        app:queryHint="Search name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ToolbarSearchSent"/>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/SwiperFindSent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="@dimen/_8sdp"
+        app:layout_constraintTop_toBottomOf="@id/SearchFindSent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RecyclFindSent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
